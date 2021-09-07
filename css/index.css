@@ -55,6 +55,7 @@ button {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.8rem;
     padding: 3% 5%;
+    margin-top: 5%;
 }
 
 h1,h2,h3 {
@@ -67,11 +68,11 @@ h1,h2,h3 {
 h1 {
     font-size: 5rem;
     color: #FBFFFB;
-    margin-bottom: 5%;
 }
 
 h2 {
     font-size: 3.5rem;
+    margin-bottom: 2%;
 }
 
 h3 {
@@ -142,3 +143,48 @@ nav {
     width: 22%;
     margin-right: 10%;
 }
+
+/* shop section */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text, .succulents, .tropicals, .cacti {
+    width: 50%;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text div {
+    width: 50%;
+    padding: 6%;
+    text-align: center;
+}
+
+.text button {
+    background-color: #266035;
+    color: white;
+
+}
+
+.cacti {
+    background-image: url('../images/cacti.jpg');
+    background-position: bottom;
+}
+
+.succulents {
+    background-image: url('../images/succulants.jpg');
+    background-position: bottom;
+}
+
+.tropicals {
+    background-image: url('../images/tropicals.jpg');
+    background-position: bottom;
+}
+
+.footer {}
+
