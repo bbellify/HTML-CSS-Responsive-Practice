@@ -61,6 +61,7 @@ h1,h2,h3 {
     font-family: 'Oxygen', sans-serif;
     color: #266035;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 h1 {
@@ -125,4 +126,19 @@ nav {
 #home button {
     color: #266035;
     border: 2px solid #266035;
+}
+
+/* About Section */
+#about {
+    background-image: url('../images/about-img.jpg');
+    height: 80vh;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#about div {
+    width: 22%;
+    margin-right: 10%;
 }
